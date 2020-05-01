@@ -1,0 +1,67 @@
+header {
+    background-color: rgb(228, 200, 153);
+    text-decoration: rgb(17, 17, 17);
+    color: rgb(253, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+
+#cabeçalho{
+    
+    margin:0; 
+    height:100px; 
+    padding:10px; 
+}
+
+#logo{
+    align-items: left;
+    margin:10; 
+    height:120px; 
+    width:130px; 
+    padding:10px; 
+    background:orange;
+}
+
+nav ul li a {
+    line-height: 1em;
+    padding: 0.5em 1.1em;
+    text-decoration: aqua;
+
+}
+
+nav li:hover a {
+    background-color: rgb(241, 190, 100);
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    min-width: 50%;
+}
+
+main section {
+    align-items: center;
+    background-color: #F2F2F2;
+    background-image: URL("img/fundo.jpg");
+    height: 500px;
+    width: 1280px;
+    
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color:   rgb(228, 200, 153);
+    height: 50px;
+    font-style: oblique;
+
+}
